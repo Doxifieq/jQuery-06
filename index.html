@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+
+        <script>
+            $(function() {
+                $("#btn_01").click(function() {
+                    $(".infinite").css("color", "red");
+                });
+
+                $("#btn_02").click(function() {
+                    $(".infinite").css("color", "green");
+                });
+
+                $("#btn_03").click(function() {
+                    $(".infinite").css("color", "blue");
+                });
+
+                $("#btn_04").click(function() {
+                    $(".infinite").css("color", "yellow");
+                });
+            });
+        </script>
+
+        <title>jQuery - 06</title>
+    </head>
+
+    <body>
+        <p class="infinite">The Infinite Improbability Drive</p>
+        <p class="fossil">Fossil fuel engine</p>
+
+        <button id="btn_01">Rød tekst</button>
+        <button id="btn_02">Grøn tekst</button>
+        <button id="btn_03">Blå tekst</button>
+        <button id="btn_04">Gul tekst</button>
+    </body>
+</html>
